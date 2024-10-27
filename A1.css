@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(58, 127, 205, 0.13);
+    color: rgb(35, 35, 180);
+}
+
+a {
+    color: rgba(68, 184, 210, 0.808);
+}
+h2{
+    color: navy;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+h4 {
+    background-color: rgba(68, 184, 210, 0.808);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+ul li:before {
+    content: '✨👥'
+}
+
+a::after {
+    content: "📜🪶"
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: rgb(29, 9, 143)
+}
